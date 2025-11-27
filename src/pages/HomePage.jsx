@@ -63,7 +63,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className='pt-32 pb-20 px-4 bg-gradient-to-br from-gray-50 to-gray-100'>
+      <section className='pt-32 pb-20 px-4 bg-linear-to-br from-gray-50 to-gray-100'>
         <div className='max-w-7xl mx-auto'>
           <div className='grid md:grid-cols-2 gap-12 items-center'>
             <div>
@@ -105,7 +105,7 @@ export default function HomePage() {
                 </Button>
               </div>
             </div>
-            <div className='relative h-96 bg-gradient-to-br from-rose-200 to-pink-300 rounded-2xl overflow-hidden shadow-xl'>
+            <div className='relative h-96 bg-linear-to-br from-rose-200 to-pink-300 rounded-2xl overflow-hidden shadow-xl'>
               <div className='absolute inset-0 flex items-center justify-center'>
                 <Heart
                   className='w-32 h-32 text-white/30'
@@ -130,7 +130,7 @@ export default function HomePage() {
           <div className='grid md:grid-cols-3 gap-8'>
             {[1, 2, 3].map((item) => (
               <div key={item} className='group cursor-pointer'>
-                <div className='relative h-80 bg-gradient-to-br from-gold/20 to-rose-100 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300'>
+                <div className='relative h-80 bg-linear-to-br from-gold/20 to-rose-100 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300'>
                   <div className='absolute inset-0 flex items-center justify-center group-hover:scale-110 transition-transform'>
                     <Heart
                       className='w-16 h-16 text-rose-300/50'
@@ -227,7 +227,7 @@ export default function HomePage() {
       </section>
 
       {/* Newsletter Section */}
-      <section className='py-20 px-4 bg-gradient-to-r from-rose-500 to-pink-500'>
+      <section className='py-20 px-4 bg-linear-to-r from-rose-500 to-pink-500'>
         <div className='max-w-2xl mx-auto text-center'>
           <h2 className='text-3xl font-bold text-white mb-4'>Stay Updated</h2>
           <p className='text-white/90 mb-8 text-lg'>
